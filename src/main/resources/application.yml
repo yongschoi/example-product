@@ -1,0 +1,60 @@
+spring:
+  profiles:
+    active: localhost
+---
+server:
+  port: 8082
+  
+spring:
+  profiles: localhost
+  application:
+    name: example-product
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/flex
+          
+logging:
+  level:
+    yongs:
+      temp: DEBUG
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: localhost
+    instanceId: ${spring.application.name}:${random.value}
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    enabled: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+      
+---
+server:
+  port: 8080
+
+spring:
+  profiles: container
+  application:
+    name: example-product
+  data:
+    mongodb:
+      uri: mongodb://flex-mongo:27017/flex
+          
+logging:
+  level:
+    yongs:
+      temp: INFO
+                         
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: eureka-server
+  client:
+    registerWithEureka: true 
+    fetchRegistry: true
+    enabled: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+            
