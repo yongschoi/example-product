@@ -52,7 +52,7 @@ logging:
       temp: INFO
 
 minio:
-  host: localhost
+  host: minio
   port: 9000
                            
 eureka:
