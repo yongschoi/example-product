@@ -1,12 +1,12 @@
 spring:
   profiles:
-    active: localhost
+    active: window-dev
 ---
 server:
   port: 8082
   
 spring:
-  profiles: localhost
+  profiles: window-dev
   application:
     name: example-product
   data:
@@ -18,6 +18,10 @@ logging:
     yongs:
       temp: DEBUG
 
+minio:
+  host: localhost
+  port: 9000
+  
 eureka:
   instance:
     preferIpAddress: true
@@ -46,11 +50,15 @@ logging:
   level:
     yongs:
       temp: INFO
-                         
+
+minio:
+  host: minio
+  port: 9000
+                           
 eureka:
   instance:
     preferIpAddress: true
-    hostname: eureka-server
+    hostname: eureka
   client:
     registerWithEureka: true 
     fetchRegistry: true

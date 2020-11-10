@@ -1,0 +1,109 @@
+db.example_product.insert({category: "모자", name: "한글", madein: 0, shippingfee: 2500, price: 27000, imageName: "한글.jpg"});
+db.example_product.insert({category: "모자", name: "헤리티지", madein: 1, shippingfee: 3000, price: 33000, imageName: "헤리티지.jpg"});
+db.example_product.insert({category: "모자", name: "피스메이커", madein: 1, shippingfee: 0, price: 56000, imageName: "피스메이커.jpg"});
+db.example_product.insert({category: "모자", name: "프로펠러", madein: 0, shippingfee: 0, price: 72000, imageName: "프로펠러.jpg"});
+db.example_product.insert({category: "모자", name: "펄슨", madein: 1, shippingfee: 0, price: 112000, imageName: "펄슨.jpg"});
+db.example_product.insert({category: "모자", name: "파타고니아", madein: 1, shippingfee: 5000, price: 92000, imageName: "파타고니아.jpg"});
+db.example_product.insert({category: "모자", name: "트리플에이캡", madein: 1, shippingfee: 0, price: 15000, imageName: "트리플에이캡.jpg"});
+db.example_product.insert({category: "모자", name: "와이즈", madein: 0, shippingfee: 2500, price: 30000, imageName: "와이즈.jpg"});
+db.example_product.insert({category: "모자", name: "심플", madein: 0, shippingfee: 2500, price: 88000, imageName: "심플.jpg"});
+db.example_product.insert({category: "모자", name: "스투시", madein: 1, shippingfee: 5500, price: 12500, imageName: "스투시.jpg"});
+db.example_product.insert({category: "모자", name: "스톤아일랜드", madein: 1, shippingfee: 3500, price: 66000, imageName: "스톤아일랜드.jpg"});
+db.example_product.insert({category: "모자", name: "빈티지체크", madein: 1, shippingfee: 3500, price: 56000, imageName: "빈티지체크.jpg"});
+db.example_product.insert({category: "모자", name: "발렌시아가", madein: 0, shippingfee: 0, price: 43000, imageName: "발렌시아가.jpg"});
+db.example_product.insert({category: "모자", name: "반스", madein: 0, shippingfee: 0, price: 63000, imageName: "반스.jpg"});
+db.example_product.insert({category: "모자", name: "밀짚모자", madein: 0, shippingfee: 2500, price: 103000, imageName: "밀짚모자.jpg"});
+db.example_product.insert({category: "모자", name: "밀레클래식", madein: 0, shippingfee: 0, price: 73000, imageName: "밀레클래식.jpg"});
+db.example_product.insert({category: "모자", name: "매드반", madein: 1, shippingfee: 0, price: 173000, imageName: "매드반.jpg"});
+db.example_product.insert({category: "모자", name: "루피", madein: 1, shippingfee: 0, price: 111000, imageName: "루피.jpg"});
+db.example_product.insert({category: "모자", name: "골프", madein: 0, shippingfee: 0, price: 33000, imageName: "골프.jpg"});
+db.example_product.insert({category: "모자", name: "내셔널지오크래픽", madein: 1, shippingfee: 0, price: 99000, imageName: "내셔널지오크래픽.jpg"});
+db.example_product.insert({category: "모자", name: "47브랜드", madein: 0, shippingfee: 0, price: 25000, imageName: "47브랜드.jpg"});
+db.example_product.insert({category: "운송", name: "테슬라", madein: 1, shippingfee: 720000, price: 120000000, imageName: "테슬라.jpg"});
+db.example_product.insert({category: "운송", name: "탱크", madein: 0, shippingfee: 1800000, price: 550000000, imageName: "탱크.jpg"});
+db.example_product.insert({category: "운송", name: "요트", madein: 1, shippingfee: 5000000, price: 750000000, imageName: "요트.jpg"});
+db.example_product.insert({category: "운송", name: "스텔스", madein: 1, shippingfee: 120000000, price: 1350000000, imageName: "스텔스.png"});
+db.example_product.insert({category: "운송", name: "비행기", madein: 1, shippingfee: 250000000, price: 1150000000, imageName: "비행기.png"});
+db.example_product.insert({category: "음식", name: "초코파이", madein: 0, shippingfee: 2500, price: 500, imageName: "초코파이.jpg"});
+db.example_product.insert({category: "음식", name: "스타벅스", madein: 0, shippingfee: 0, price: 4100, imageName: "스타벅스.jpg"});
+db.example_product.insert({category: "음식", name: "샌드위치", madein: 0, shippingfee: 0, price: 4500, imageName: "샌드위치.jpg"});
+db.example_product.insert({category: "음식", name: "떡", madein: 0, shippingfee: 0, price: 4300, imageName: "떡.png"});
+db.example_product.insert({category: "음식", name: "가나", madein: 0, shippingfee: 2500, price: 500, imageName: "가나.png"});
+db.example_product.insert({category: "음식", name: "COKE", madein: 0, shippingfee: 0, price: 1200, imageName: "COKE.jpg"});
+db.example_product.insert({category: "전자", name: "젠하이저", madein: 1, shippingfee: 5000, price: 435000, imageName: "젠하이저.jpg"});
+db.example_product.insert({category: "전자", name: "아이폰", madein: 1, shippingfee: 0, price: 1150000, imageName: "아이폰.jpg"});
+db.example_product.insert({category: "전자", name: "TV", madein: 0, shippingfee: 0, price: 750000, imageName: "TV.jpg"});
+db.example_product.insert({category: "전자", name: "냉장고", madein: 0, shippingfee: 0, price: 3500000, imageName: "냉장고.jpg"});
+db.example_product.insert({category: "의류", name: "아디다스", madein: 0, shippingfee: 0, price: 35000, imageName: "아디다스.jpg"});
+db.example_product.insert({category: "의류", name: "셔츠", madein: 0, shippingfee: 0, price: 25000, imageName: "셔츠.jpg"});
+db.example_product.insert({category: "의류", name: "머리핀", madein: 0, shippingfee: 2500, price: 150, imageName: "머리핀.jpg"});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.example_product.insert({category: "가전", name: "냉장고", madein: 1, shippingfee: 55000, price: 2300000, image: "http://localhost:9000/product/%EB%83%89%EC%9E%A5%EA%B3%A0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085552Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=78f4bda1f756b8bc8636d0fc8eb0514c83a854dc1c05ffe174661706fdaa7c0a"});
+
+
+
+db.example_product.insert({category: "모자", name: "47브랜드", madein: 0, shippingfee: 0, price: 23000, image: "http://localhost:9000/product/47%EB%B8%8C%EB%9E%9C%EB%93%9C.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085608Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=f0813cb28480ff010556e1aa5a9d890fcf9cf56a5dfff94ee790a7d529e332ae"});
+
+
+db.example_product.insert({category: "모자", name: "루피", madein: 1, shippingfee: 0, price: 55000, image: "http://localhost:9000/product/%EB%A3%A8%ED%94%BC.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085621Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=86c07da82a49b2086781645966941ba31c50897700361d3295f21c700187771a"});
+
+
+
+db.example_product.insert({category: "모자", name: "파타고니아", madein: 1, shippingfee: 25000, price: 75000, image: "http://localhost:9000/product/%ED%8C%8C%ED%83%80%EA%B3%A0%EB%8B%88%EC%95%84.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085635Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=f22c89c1dda444c612a6edc7062d0408ff12f7f5e7b149d1b07179fc2cde9b57"});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

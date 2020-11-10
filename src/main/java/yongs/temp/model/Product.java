@@ -15,8 +15,31 @@ public class Product {
     private int madein;
     private int shippingfee;
     private long price;    
-    private String image;
+    private String imageName;
+    private String imageUrl;  
 	       
+	public Product(String id, String category, String name, int madein, int shippingfee, long price, String imageUrl) {
+		super();
+		this.id = id;
+		this.category = category;
+		this.name = name;
+		this.madein = madein;
+		this.shippingfee = shippingfee;
+		this.price = price;
+		this.imageUrl = imageUrl;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+	public String getImageUrl() {
+		return imageUrl;
+	}
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
+	}
 	public String getId() {
 		return id;
 	}
@@ -34,12 +57,6 @@ public class Product {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public String getImage() {
-		return image;
-	}
-	public void setImage(String image) {
-		this.image = image;
 	}
 	public String getCategory() {
 		return category;

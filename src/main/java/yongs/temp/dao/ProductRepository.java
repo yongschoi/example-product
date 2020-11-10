@@ -11,3 +11,4 @@ public interface ProductRepository extends ReactiveMongoRepository<Product, Stri
 	public Flux<Product> findByRegexpName(String regexp);
 	public Flux<Product> findByCategory(String category);
 }
+  
