@@ -44,7 +44,7 @@ spring:
     name: example-product
   data:
     mongodb:
-      uri: mongodb://flex-mongo:27017/flex
+      uri: mongodb://mongo-db:27017/flex
           
 logging:
   level:
