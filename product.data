@@ -24,14 +24,14 @@ db.example_product.insert({category: "모자", name: "47브랜드", madein: 0, s
 db.example_product.insert({category: "운송", name: "테슬라", madein: 1, shippingfee: 720000, price: 120000000, imageName: "테슬라.jpg"});
 db.example_product.insert({category: "운송", name: "탱크", madein: 0, shippingfee: 1800000, price: 550000000, imageName: "탱크.jpg"});
 db.example_product.insert({category: "운송", name: "요트", madein: 1, shippingfee: 5000000, price: 750000000, imageName: "요트.jpg"});
-db.example_product.insert({category: "운송", name: "스텔스", madein: 1, shippingfee: 120000000, price: 1350000000, imageName: "스텔스.jpg});
-db.example_product.insert({category: "운송", name: "버스", madein: 0, shippingfee: 0, price: 150000000, imageName: "버스.jpeg});
-db.example_product.insert({category: "운송", name: "택시", madein: 0, shippingfee: 0, price: 35000000, imageName: "택시.jpeg});
-db.example_product.insert({category: "운송", name: "자전거", madein: 0, shippingfee: 0, price: 530000, imageName: "자전거.jpeg});
-db.example_product.insert({category: "운송", name: "기차", madein: 0, shippingfee: 120000000, price: 950000000, imageName: "기차.jpeg});
-db.example_product.insert({category: "운송", name: "트럭", madein: 0, shippingfee: 25000, price: 75000000, imageName: "트럭.jpeg});
-db.example_product.insert({category: "운송", name: "리어카", madein: 0, shippingfee: 0, price: 147000, imageName: "리어카.jpeg});
-db.example_product.insert({category: "운송", name: "드론", madein: 1, shippingfee: 550000, price: 550000000, imageName: "드론.jpeg});
+db.example_product.insert({category: "운송", name: "스텔스", madein: 1, shippingfee: 120000000, price: 1350000000, imageName: "스텔스.jpg"});
+db.example_product.insert({category: "운송", name: "버스", madein: 0, shippingfee: 0, price: 150000000, imageName: "버스.jpeg"});
+db.example_product.insert({category: "운송", name: "택시", madein: 0, shippingfee: 0, price: 35000000, imageName: "택시.jpeg"});
+db.example_product.insert({category: "운송", name: "자전거", madein: 0, shippingfee: 0, price: 530000, imageName: "자전거.jpeg"});
+db.example_product.insert({category: "운송", name: "기차", madein: 0, shippingfee: 120000000, price: 950000000, imageName: "기차.jpeg"});
+db.example_product.insert({category: "운송", name: "트럭", madein: 0, shippingfee: 25000, price: 75000000, imageName: "트럭.jpeg"});
+db.example_product.insert({category: "운송", name: "리어카", madein: 0, shippingfee: 0, price: 147000, imageName: "리어카.jpeg"});
+db.example_product.insert({category: "운송", name: "드론", madein: 1, shippingfee: 550000, price: 550000000, imageName: "드론.jpeg"});
 
 db.example_product.insert({category: "음식", name: "초코파이", madein: 0, shippingfee: 2500, price: 500, imageName: "초코파이.jpeg"});
 db.example_product.insert({category: "음식", name: "스타벅스", madein: 0, shippingfee: 0, price: 4100, imageName: "스타벅스.jpeg"});
@@ -72,8 +72,6 @@ db.example_product.insert({category: "음식", name: "사과", madein: 0, shippi
 db.example_product.insert({category: "음식", name: "토마토", madein: 0, shippingfee: 0, price: 900 imageName: "토마토.jpeg"});
 db.example_product.insert({category: "음식", name: "참외", madein: 0, shippingfee: 0, price: 1200 imageName: "참외.jpeg});
 
-
-
 db.example_product.insert({category: "전자", name: "젠하이저", madein: 1, shippingfee: 5000, price: 435000, imageName: "젠하이저.jpeg"});
 db.example_product.insert({category: "전자", name: "아이폰", madein: 1, shippingfee: 0, price: 1150000, imageName: "아이폰.jpeg"});
 db.example_product.insert({category: "전자", name: "TV", madein: 0, shippingfee: 0, price: 750000, imageName: "TV.jpeg"});
@@ -85,7 +83,6 @@ db.example_product.insert({category: "전자", name: "전자렌지", madein: 0, 
 db.example_product.insert({category: "전자", name: "가습기", madein: 0, shippingfee: 0, price: 75000, imageName: "가습기.jpeg"});
 db.example_product.insert({category: "전자", name: "오븐", madein: 0, shippingfee: 0, price: 1750000, imageName: "오븐.jpeg"});
 db.example_product.insert({category: "전자", name: "식탁등", madein: 0, shippingfee: 0, price: 175000, imageName: "식탁등.jpeg"});
-
 
 db.example_product.insert({category: "의류", name: "셔츠", madein: 0, shippingfee: 0, price: 25000, imageName: "셔츠.jpeg"});
 db.example_product.insert({category: "의류", name: "청바지", madein: 0, shippingfee: 0, price: 35000, imageName: "청바지.jpeg"});
