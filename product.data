@@ -1,3 +1,4 @@
+
 db.example_product.insert({category: "모자", name: "한글", madein: 0, shippingfee: 2500, price: 27000, imageName: "한글.jpg"});
 db.example_product.insert({category: "모자", name: "헤리티지", madein: 1, shippingfee: 3000, price: 33000, imageName: "헤리티지.jpg"});
 db.example_product.insert({category: "모자", name: "피스메이커", madein: 1, shippingfee: 0, price: 56000, imageName: "피스메이커.jpg"});
@@ -19,91 +20,80 @@ db.example_product.insert({category: "모자", name: "루피", madein: 1, shippi
 db.example_product.insert({category: "모자", name: "골프", madein: 0, shippingfee: 0, price: 33000, imageName: "골프.jpg"});
 db.example_product.insert({category: "모자", name: "내셔널지오크래픽", madein: 1, shippingfee: 0, price: 99000, imageName: "내셔널지오크래픽.jpg"});
 db.example_product.insert({category: "모자", name: "47브랜드", madein: 0, shippingfee: 0, price: 25000, imageName: "47브랜드.jpg"});
+
 db.example_product.insert({category: "운송", name: "테슬라", madein: 1, shippingfee: 720000, price: 120000000, imageName: "테슬라.jpg"});
 db.example_product.insert({category: "운송", name: "탱크", madein: 0, shippingfee: 1800000, price: 550000000, imageName: "탱크.jpg"});
 db.example_product.insert({category: "운송", name: "요트", madein: 1, shippingfee: 5000000, price: 750000000, imageName: "요트.jpg"});
-db.example_product.insert({category: "운송", name: "스텔스", madein: 1, shippingfee: 120000000, price: 1350000000, imageName: "스텔스.png"});
-db.example_product.insert({category: "운송", name: "비행기", madein: 1, shippingfee: 250000000, price: 1150000000, imageName: "비행기.png"});
-db.example_product.insert({category: "음식", name: "초코파이", madein: 0, shippingfee: 2500, price: 500, imageName: "초코파이.jpg"});
-db.example_product.insert({category: "음식", name: "스타벅스", madein: 0, shippingfee: 0, price: 4100, imageName: "스타벅스.jpg"});
-db.example_product.insert({category: "음식", name: "샌드위치", madein: 0, shippingfee: 0, price: 4500, imageName: "샌드위치.jpg"});
-db.example_product.insert({category: "음식", name: "떡", madein: 0, shippingfee: 0, price: 4300, imageName: "떡.png"});
-db.example_product.insert({category: "음식", name: "가나", madein: 0, shippingfee: 2500, price: 500, imageName: "가나.png"});
-db.example_product.insert({category: "음식", name: "COKE", madein: 0, shippingfee: 0, price: 1200, imageName: "COKE.jpg"});
-db.example_product.insert({category: "전자", name: "젠하이저", madein: 1, shippingfee: 5000, price: 435000, imageName: "젠하이저.jpg"});
-db.example_product.insert({category: "전자", name: "아이폰", madein: 1, shippingfee: 0, price: 1150000, imageName: "아이폰.jpg"});
-db.example_product.insert({category: "전자", name: "TV", madein: 0, shippingfee: 0, price: 750000, imageName: "TV.jpg"});
-db.example_product.insert({category: "전자", name: "냉장고", madein: 0, shippingfee: 0, price: 3500000, imageName: "냉장고.jpg"});
-db.example_product.insert({category: "의류", name: "아디다스", madein: 0, shippingfee: 0, price: 35000, imageName: "아디다스.jpg"});
-db.example_product.insert({category: "의류", name: "셔츠", madein: 0, shippingfee: 0, price: 25000, imageName: "셔츠.jpg"});
-db.example_product.insert({category: "의류", name: "머리핀", madein: 0, shippingfee: 2500, price: 150, imageName: "머리핀.jpg"});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-db.example_product.insert({category: "가전", name: "냉장고", madein: 1, shippingfee: 55000, price: 2300000, image: "http://localhost:9000/product/%EB%83%89%EC%9E%A5%EA%B3%A0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085552Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=78f4bda1f756b8bc8636d0fc8eb0514c83a854dc1c05ffe174661706fdaa7c0a"});
-
-
-
-db.example_product.insert({category: "모자", name: "47브랜드", madein: 0, shippingfee: 0, price: 23000, image: "http://localhost:9000/product/47%EB%B8%8C%EB%9E%9C%EB%93%9C.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085608Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=f0813cb28480ff010556e1aa5a9d890fcf9cf56a5dfff94ee790a7d529e332ae"});
-
-
-db.example_product.insert({category: "모자", name: "루피", madein: 1, shippingfee: 0, price: 55000, image: "http://localhost:9000/product/%EB%A3%A8%ED%94%BC.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085621Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=86c07da82a49b2086781645966941ba31c50897700361d3295f21c700187771a"});
-
-
-
-db.example_product.insert({category: "모자", name: "파타고니아", madein: 1, shippingfee: 25000, price: 75000, image: "http://localhost:9000/product/%ED%8C%8C%ED%83%80%EA%B3%A0%EB%8B%88%EC%95%84.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20201101%2F%2Fs3%2Faws4_request&X-Amz-Date=20201101T085635Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=f22c89c1dda444c612a6edc7062d0408ff12f7f5e7b149d1b07179fc2cde9b57"});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+db.example_product.insert({category: "운송", name: "스텔스", madein: 1, shippingfee: 120000000, price: 1350000000, imageName: "스텔스.jpg});
+db.example_product.insert({category: "운송", name: "버스", madein: 0, shippingfee: 0, price: 150000000, imageName: "버스.jpeg});
+db.example_product.insert({category: "운송", name: "택시", madein: 0, shippingfee: 0, price: 35000000, imageName: "택시.jpeg});
+db.example_product.insert({category: "운송", name: "자전거", madein: 0, shippingfee: 0, price: 530000, imageName: "자전거.jpeg});
+db.example_product.insert({category: "운송", name: "기차", madein: 0, shippingfee: 120000000, price: 950000000, imageName: "기차.jpeg});
+db.example_product.insert({category: "운송", name: "트럭", madein: 0, shippingfee: 25000, price: 75000000, imageName: "트럭.jpeg});
+db.example_product.insert({category: "운송", name: "리어카", madein: 0, shippingfee: 0, price: 147000, imageName: "리어카.jpeg});
+db.example_product.insert({category: "운송", name: "드론", madein: 1, shippingfee: 550000, price: 550000000, imageName: "드론.jpeg});
+
+db.example_product.insert({category: "음식", name: "초코파이", madein: 0, shippingfee: 2500, price: 500, imageName: "초코파이.jpeg"});
+db.example_product.insert({category: "음식", name: "스타벅스", madein: 0, shippingfee: 0, price: 4100, imageName: "스타벅스.jpeg"});
+db.example_product.insert({category: "음식", name: "샌드위치", madein: 0, shippingfee: 0, price: 4500, imageName: "샌드위치.jpeg"});
+db.example_product.insert({category: "음식", name: "떡", madein: 0, shippingfee: 0, price: 4300, imageName: "떡.jpeg"});
+db.example_product.insert({category: "음식", name: "COKE", madein: 0, shippingfee: 0, price: 1200, imageName: "COKE.jpeg"});
+db.example_product.insert({category: "음식", name: "파스타", madein: 0, shippingfee: 0, price: 12000, imageName: "파스타.jpeg"});
+db.example_product.insert({category: "음식", name: "햄버거", madein: 0, shippingfee: 0, price: 3500, imageName: "햄버거.jpeg"});
+db.example_product.insert({category: "음식", name: "곱창", madein: 0, shippingfee: 0, price: 52000, imageName: "곱창.jpeg"});
+db.example_product.insert({category: "음식", name: "갈비", madein: 0, shippingfee: 0, price: 38000, imageName: "갈비.jpeg"});
+db.example_product.insert({category: "음식", name: "냉면", madein: 0, shippingfee: 0, price: 11000, imageName: "냉면.jpeg"});
+db.example_product.insert({category: "음식", name: "라면", madein: 0, shippingfee: 0, price: 3000, imageName: "라면.jpeg"});
+db.example_product.insert({category: "음식", name: "김밥", madein: 0, shippingfee: 0, price: 2500, imageName: "김밥.jpeg"});
+db.example_product.insert({category: "음식", name: "짜장면", madein: 0, shippingfee: 0, price: 4500, imageName: "짜장면.jpeg"});
+db.example_product.insert({category: "음식", name: "짬뽕", madein: 0, shippingfee: 0, price: 5500, imageName: "짬뽕.jpeg"});
+db.example_product.insert({category: "음식", name: "탕수육", madein: 0, shippingfee: 0, price: 15000, imageName: "탕수육.jpeg"});
+db.example_product.insert({category: "음식", name: "보쌈", madein: 0, shippingfee: 0, price: 23000, imageName: "보쌈.jpeg"});
+db.example_product.insert({category: "음식", name: "족발", madein: 0, shippingfee: 0, price: 33000, imageName: "족발.jpeg"});
+db.example_product.insert({category: "음식", name: "갈비탕", madein: 0, shippingfee: 0, price: 12000, imageName: "갈비탕.jpeg"});
+db.example_product.insert({category: "음식", name: "감자탕", madein: 0, shippingfee: 0, price: 32000, imageName: "감자탕.jpeg"});
+db.example_product.insert({category: "음식", name: "초밥", madein: 0, shippingfee: 0, price: 15000, imageName: "초밥.jpeg"});
+db.example_product.insert({category: "음식", name: "떡볶기", madein: 0, shippingfee: 0, price: 2000, imageName: "떡볶기.jpeg"});
+db.example_product.insert({category: "음식", name: "오뎅", madein: 0, shippingfee: 0, price: 3000, imageName: "오뎅.jpeg"});
+db.example_product.insert({category: "음식", name: "순대", madein: 0, shippingfee: 0, price: 3500, imageName: "순대.jpeg"});
+db.example_product.insert({category: "음식", name: "사이다", madein: 0, shippingfee: 0, price: 1500 imageName: "사이다.jpeg"});
+db.example_product.insert({category: "음식", name: "붕어빵", madein: 0, shippingfee: 0, price: 300 imageName: "붕어빵.jpeg"});
+db.example_product.insert({category: "음식", name: "돈까스", madein: 0, shippingfee: 0, price: 9000 imageName: "돈까스.jpeg"});
+db.example_product.insert({category: "음식", name: "삼계탕", madein: 0, shippingfee: 0, price: 13000 imageName: "삼계탕.jpeg"});
+db.example_product.insert({category: "음식", name: "누가바", madein: 0, shippingfee: 0, price: 400 imageName: "누가바.jpeg"});
+db.example_product.insert({category: "음식", name: "누크바", madein: 0, shippingfee: 0, price: 400 imageName: "누크바.jpeg"});
+db.example_product.insert({category: "음식", name: "카레", madein: 0, shippingfee: 0, price: 7000 imageName: "카레.jpeg"});
+db.example_product.insert({category: "음식", name: "김치볶음밥", madein: 0, shippingfee: 0, price: 6500 imageName: "김치볶음밥.jpeg"});
+db.example_product.insert({category: "음식", name: "옥수수", madein: 0, shippingfee: 0, price: 3000 imageName: "옥수수.jpeg"});
+db.example_product.insert({category: "음식", name: "카스", madein: 0, shippingfee: 0, price: 1600 imageName: "카스.jpeg"});
+db.example_product.insert({category: "음식", name: "우유", madein: 0, shippingfee: 0, price: 1000 imageName: "우유.jpeg"});
+db.example_product.insert({category: "음식", name: "요거트", madein: 0, shippingfee: 0, price: 2700 imageName: "요거트.jpeg"});
+db.example_product.insert({category: "음식", name: "사과", madein: 0, shippingfee: 0, price: 1000 imageName: "사과.jpeg"});
+db.example_product.insert({category: "음식", name: "토마토", madein: 0, shippingfee: 0, price: 900 imageName: "토마토.jpeg"});
+db.example_product.insert({category: "음식", name: "참외", madein: 0, shippingfee: 0, price: 1200 imageName: "참외.jpeg});
+
+
+
+db.example_product.insert({category: "전자", name: "젠하이저", madein: 1, shippingfee: 5000, price: 435000, imageName: "젠하이저.jpeg"});
+db.example_product.insert({category: "전자", name: "아이폰", madein: 1, shippingfee: 0, price: 1150000, imageName: "아이폰.jpeg"});
+db.example_product.insert({category: "전자", name: "TV", madein: 0, shippingfee: 0, price: 750000, imageName: "TV.jpeg"});
+db.example_product.insert({category: "전자", name: "냉장고", madein: 0, shippingfee: 0, price: 3500000, imageName: "냉장고.jpeg"});
+db.example_product.insert({category: "전자", name: "세탁기", madein: 0, shippingfee: 0, price: 2500000, imageName: "세탁기.jpeg"});
+db.example_product.insert({category: "전자", name: "청소기", madein: 1, shippingfee: 0, price: 750000, imageName: "청소기.jpeg"});
+db.example_product.insert({category: "전자", name: "맥북", madein: 1, shippingfee: 0, price: 4750000, imageName: "맥북.jpeg"});
+db.example_product.insert({category: "전자", name: "전자렌지", madein: 0, shippingfee: 0, price: 475000, imageName: "전자렌지.jpeg"});
+db.example_product.insert({category: "전자", name: "가습기", madein: 0, shippingfee: 0, price: 75000, imageName: "가습기.jpeg"});
+db.example_product.insert({category: "전자", name: "오븐", madein: 0, shippingfee: 0, price: 1750000, imageName: "오븐.jpeg"});
+db.example_product.insert({category: "전자", name: "식탁등", madein: 0, shippingfee: 0, price: 175000, imageName: "식탁등.jpeg"});
+
+
+db.example_product.insert({category: "의류", name: "셔츠", madein: 0, shippingfee: 0, price: 25000, imageName: "셔츠.jpeg"});
+db.example_product.insert({category: "의류", name: "청바지", madein: 0, shippingfee: 0, price: 35000, imageName: "청바지.jpeg"});
+db.example_product.insert({category: "의류", name: "점퍼", madein: 0, shippingfee: 0, price: 75000, imageName: "점퍼.jpeg"});
+db.example_product.insert({category: "의류", name: "티셔츠", madein: 0, shippingfee: 0, price: 10000, imageName: "티셔츠.jpeg"});
+db.example_product.insert({category: "의류", name: "양말", madein: 0, shippingfee: 0, price: 10000, imageName: "양말.jpeg"});
+db.example_product.insert({category: "의류", name: "가디건", madein: 0, shippingfee: 0, price: 55000, imageName: "가디건.jpeg"});
+db.example_product.insert({category: "의류", name: "반바지", madein: 0, shippingfee: 0, price: 25000, imageName: "반바지.jpeg"});
+db.example_product.insert({category: "의류", name: "드레스", madein: 0, shippingfee: 0, price: 250000, imageName: "드레스.jpeg"});
+db.example_product.insert({category: "의류", name: "자킷", madein: 0, shippingfee: 0, price: 90000, imageName: "자킷.jpeg"});
+db.example_product.insert({category: "의류", name: "파카", madein: 0, shippingfee: 0, price: 70000, imageName: "파카.jpeg"});
