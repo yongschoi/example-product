@@ -11,6 +11,7 @@ spring:
     name: example-product
   data:
     mongodb:
+      authentication-database: admin
       uri: mongodb://127.0.0.1:27017/flex
       username: scott
       password: tiger
@@ -46,6 +47,7 @@ spring:
     name: example-product
   data:
     mongodb:
+      authentication-database: admin
       uri: mongodb://mongo-db:27017/flex
       username: scott
       password: tiger
