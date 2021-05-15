@@ -12,9 +12,11 @@ spring:
   data:
     mongodb:
       authentication-database: admin
-      uri: mongodb://127.0.0.1:27017/flex
       username: scott
       password: tiger
+      host: localhost
+      port: 27017
+      database: flex
           
 logging:
   level:
@@ -48,9 +50,11 @@ spring:
   data:
     mongodb:
       authentication-database: admin
-      uri: mongodb://mongo-db:27017/flex
       username: scott
       password: tiger
+      host: mongo-db
+      port: 27017
+      database: flex
       
 logging:
   level:
