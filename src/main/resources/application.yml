@@ -11,7 +11,6 @@ spring:
     name: example-product
   data:
     mongodb:
-      authentication-database: admin
       username: scott
       password: tiger
       host: localhost
@@ -49,7 +48,6 @@ spring:
     name: example-product
   data:
     mongodb:
-      authentication-database: admin
       username: scott
       password: tiger
       host: mongo-db
