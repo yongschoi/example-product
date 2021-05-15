@@ -11,11 +11,12 @@ spring:
     name: example-product
   data:
     mongodb:
-      username: scott
-      password: tiger
       host: localhost
       port: 27017
       database: flex
+      authentication-database: admin
+      username: scott
+      password: tiger
           
 logging:
   level:
@@ -48,11 +49,12 @@ spring:
     name: example-product
   data:
     mongodb:
-      username: scott
-      password: tiger
       host: mongo-db
       port: 27017
       database: flex
+      authentication-database: admin
+      username: scott
+      password: tiger
       
 logging:
   level:
