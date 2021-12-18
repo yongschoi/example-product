@@ -36,7 +36,7 @@ public class ProductController {
     	});
     }
     
-    @GetMapping("/search/{name}")
+    @GetMapping("/name/{name}")
     public Flux<Product> findByRegexpName(@PathVariable("name") String name) {
     	log.debug("ProductController.findByRegexpName({})", name); 
     	return repo.findByRegexpName(name).map(p -> {
