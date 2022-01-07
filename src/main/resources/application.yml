@@ -3,13 +3,17 @@ spring:
     active: local
 ---
 server:
-  port: 8082
+  port: 0
 
 logging:
   level:
     yongs:
       temp: DEBUG
-  
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
+          
 spring:
   config:
     activate:
@@ -31,8 +35,8 @@ eureka:
     hostname: localhost
     instanceId: ${spring.application.name}:${random.value}
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     enabled: true
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
@@ -68,11 +72,11 @@ spring:
 eureka:
   instance:
     preferIpAddress: true
-    hostname: eureka
+    hostname: example-eureka
     instanceId: ${spring.application.name}:${random.value}
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     enabled: true
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/

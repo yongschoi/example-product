@@ -27,6 +27,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'io.minio:minio:8.3.4'
+	// for io.minio
 	implementation 'com.squareup.okhttp3:okhttp:4.9.1'
 	
 	compileOnly 'org.projectlombok:lombok'
