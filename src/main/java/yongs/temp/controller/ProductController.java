@@ -35,21 +35,17 @@ public class ProductController {
     @GetMapping("/all")
     public Flux<Product> findAll() {
     	log.debug("ProductController.findAll()");  	
-    	// a littl 비효율(?)
-    	return repo.findAll().map(p -> {
-    		return new Product(p.getId(), 
-					   p.getCategory(), 
-					   p.getName(), 
-					   p.getMadein(),
-					   p.getShippingfee(),
-					   p.getPrice(),
-					   minio.getObjectUrl("example-product", p.getImageName()));
+    	// Flux.just로 Product Stream 생성
+    	return repo.findAll().flatMap(p -> {
+    		p.setImageUrl(minio.getObjectUrl("example-product", p.getImageName()));
+    		return Flux.just(p);
     	});
     }
     
     @GetMapping("/name/{name}")
     public Flux<Product> findByRegexpName(@PathVariable("name") String name) {
     	log.debug("ProductController.findByRegexpName({})", name); 
+    	// new Product로 Product Stream 생성
     	return repo.findByRegexpName(name).map(p -> {
     		return new Product(p.getId(), 
 					   p.getCategory(), 
